@@ -1,0 +1,32 @@
+/*Nunito font implementation*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+/*General style*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Nunito, Calibri;
+    list-style-type: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+/*Body style*/
+body {
+    color: white;
+    background-color: black;
+}
+
+/*Selected text style*/
+::selection {
+    color: white;
+    background-color: rgb(72, 138, 158);
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}

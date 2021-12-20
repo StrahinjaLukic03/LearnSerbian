@@ -1,0 +1,38 @@
+/*Nav style*/
+.navbar {
+    width: 100%;
+    display: inline-block;
+    user-select: none;
+}
+
+.navbar h1 {
+    padding: 5px;
+    padding-left: 20px;
+    float: left;
+    margin-top: 5px;
+}
+
+.navbar ul {
+    display: inline-flex;
+    float: right;
+    margin-top: 5px;
+    padding-right: 15px;
+}
+
+.navbar li {
+    padding: 12px;
+    border-radius: 0px;
+    cursor: pointer;
+    transition: background-color .3s, border-radius .3s;
+}
+
+.navbar li:hover, :focus {
+    background-color: rgb(60, 60, 60);
+    border-radius: 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}

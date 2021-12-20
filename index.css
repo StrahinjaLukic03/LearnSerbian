@@ -1,0 +1,71 @@
+.section {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.section img {
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    opacity: 30%;
+    user-select: none;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 15px rgba(60, 60, 60, 0.69);
+    width: 100%;
+}
+
+.content h1 {
+    font-size: 3.2vw;
+    padding-bottom: 50px;
+}
+
+.content p {
+    font-size: 1.5vw;
+    padding-bottom: 50px;
+}
+
+.scrollButton {
+    font-size: 50px;
+    color: white;
+    transition: text-shadow .3s;
+    user-select: none;
+}
+
+.scrollButton:hover {
+    text-shadow: 0px 0px 50px lightseagreen;
+}
+
+.scrollButton:active {
+    background-color: transparent;
+}
+
+#LP {
+    margin-bottom: 50px;
+}
+
+.learnButton {
+    background-color: black;
+    padding: 30px;
+    font-size: 28px;
+    border-radius: 20px;
+    color: white;
+    transition: background-color .3s, transform .3s, box-shadow .3s, text-shadow .5s;
+}
+
+.learnButton:hover {
+    box-shadow: 0px 5px rgb(50, 50, 50);
+    text-shadow: 0px 0px 30px lightseagreen;
+}
+
+.learnButton:active {
+    background-color: rgb(36, 36, 36);
+    transform: translateY(4px);
+}
