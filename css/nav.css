@@ -26,12 +26,11 @@
 
 .navbar li {
     padding: 12px;
-    border-radius: 0px;
     cursor: pointer;
     transition: background-color .3s, border-radius .3s;
 }
 
-.navbar li:hover, :focus {
+.navbar li:hover, .navbar li:focus {
     background-color: rgb(0, 0, 0, 0.4);
     border-radius: 15px;
 }

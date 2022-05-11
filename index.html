@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/index.css">
+    <script src="/scripts/demoCheckButton.js"></script>
 </head>
 <body>
     <div class="navbar">
@@ -109,10 +110,51 @@
             <div class="panel">
 
                 <div class="panelContent">
-                    <h1>Easy to learn</h1>
+                    <h1>Наслов</h1>
                     <p>
-                        You can easily learn and use stuff from lessons since they are relative. 
-                        
+                        Искењај нешто за лекције.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="panels">
+        <div class="alignDivs">
+            <div class="panel examplePanel">
+
+                <div class="panelContent panelContentExercise">
+                    <h1>Exercise</h1>
+                    <p>
+                        <h3>I Complete the sentences correctly.</h3>
+                        Ја прича<input type="text" id="11"> са татом.
+                        <br>
+                        Ти прича<input type="text" id="12"> са мном.
+                        <br>
+                        Ми прича<input type="text" id="13"> о српском језику.
+                        <br>
+                        Они прича<input type="text" id="14"> о Србији.
+                        <br>
+                        Чуо сам оне девојке како прича<input type="text" id="15"> о теби.
+                        <br><br>
+                        <h3>II Use the Verb in the Correct From using the given verb in Brackets.</h3>
+                        Тата <input type="text" id="21"> (is talking).
+                    </p>
+                    <div>
+                        <p id="panelMessage">
+                            Click the Check button.
+                        </p>
+                        <button class="checkButtonDemo" onclick="demoCheckButton()">Check</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel">
+
+                <div class="panelContent">
+                    <h1>Наслов</h1>
+                    <p>
+                        Искењај нешто за вежбе.
                     </p>
                 </div>
             </div>
