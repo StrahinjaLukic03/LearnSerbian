@@ -3,19 +3,24 @@
     width: 100%;
     display: inline-block;
     user-select: none;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
 }
 
-.navbar h1 {
+.navbarTitle {
+    position: absolute;
+}
+
+.navbar img {
+    height: 50px;
     padding: 5px;
-    padding-left: 20px;
     float: left;
-    margin-top: 5px;
 }
 
 .navbar ul {
     display: inline-flex;
     float: right;
-    margin-top: 5px;
+    margin-top: 2px;
     padding-right: 15px;
 }
 
@@ -27,7 +32,7 @@
 }
 
 .navbar li:hover, :focus {
-    background-color: rgb(60, 60, 60);
+    background-color: rgb(0, 0, 0, 0.4);
     border-radius: 15px;
 }
 
