@@ -4,21 +4,6 @@ body {
     background-attachment: fixed;
 }
 
-.section {
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    position: relative;
-}
-
-.section img {
-    min-width: 100%;
-    max-width: 100%;
-    height: auto;
-    opacity: 50%;
-    user-select: none;
-}
-
 .title {
     font-size: 25px;
     text-align: center;
@@ -26,8 +11,6 @@ body {
     padding-bottom: 40px;
     text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.69);
 }
-
-/*------------------------------------*/
 
 .panels {
     display: inline-block;
@@ -63,48 +46,12 @@ body {
 }
 
 .examplePanel {
-    max-width: 500px;
+    width: 450px;
+    max-width: calc(100% - 20px);
+    padding: 0 10px;
 }
 
 .markText {
     background-color: rgba(128, 0, 100, 0.4);
     border-radius: 5px;
-}
-/*------------------------------------*/
-.scrollButton {
-    font-size: 50px;
-    color: white;
-    transition: text-shadow .3s;
-    user-select: none;
-}
-
-.scrollButton:hover {
-    text-shadow: 0px 0px 50px lightseagreen;
-}
-
-.scrollButton:active {
-    background-color: transparent;
-}
-
-#LP {
-    margin-bottom: 50px;
-}
-
-.learnButton {
-    background-color: white;
-    padding: 30px;
-    font-size: 28px;
-    border-radius: 20px;
-    color: white;
-    transition: background-color .3s, transform .3s, box-shadow .3s, text-shadow .5s;
-}
-
-.learnButton:hover {
-    box-shadow: 0px 5px rgb(50, 50, 50);
-    text-shadow: 0px 0px 30px lightseagreen;
-}
-
-.learnButton:active {
-    background-color: rgb(36, 36, 36);
-    transform: translateY(4px);
 }
